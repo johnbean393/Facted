@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		20436D8F2D3FCB8600641765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20436D882D3FCB8600641765 /* Preview Assets.xcassets */; };
+		20436D902D3FCB8600641765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20436D8A2D3FCB8600641765 /* Assets.xcassets */; };
+		20436D912D3FCB8600641765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20436D8B2D3FCB8600641765 /* ContentView.swift */; };
+		20436D922D3FCB8600641765 /* FactedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20436D8D2D3FCB8600641765 /* FactedApp.swift */; };
+		20436D952D3FCB8A00641765 /* FactedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20436D932D3FCB8A00641765 /* FactedTests.swift */; };
+		20436D992D3FCB8C00641765 /* FactedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20436D962D3FCB8C00641765 /* FactedUITests.swift */; };
+		20436D9A2D3FCB8C00641765 /* FactedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20436D972D3FCB8C00641765 /* FactedUITestsLaunchTests.swift */; };
+		20436D9E2D3FCC1A00641765 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20436D9D2D3FCC1A00641765 /* Fact.swift */; };
+		20436DA02D3FCC7C00641765 /* FactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20436D9F2D3FCC7C00641765 /* FactViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		20436D6C2D3FCB8100641765 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +39,18 @@
 		20436D5A2D3FCB8000641765 /* Facted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20436D6B2D3FCB8100641765 /* FactedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20436D752D3FCB8100641765 /* FactedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20436D882D3FCB8600641765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20436D8A2D3FCB8600641765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20436D8B2D3FCB8600641765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20436D8C2D3FCB8600641765 /* Facted.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Facted.entitlements; sourceTree = "<group>"; };
+		20436D8D2D3FCB8600641765 /* FactedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactedApp.swift; sourceTree = "<group>"; };
+		20436D932D3FCB8A00641765 /* FactedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactedTests.swift; sourceTree = "<group>"; };
+		20436D962D3FCB8C00641765 /* FactedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactedUITests.swift; sourceTree = "<group>"; };
+		20436D972D3FCB8C00641765 /* FactedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20436D9D2D3FCC1A00641765 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		20436D9F2D3FCC7C00641765 /* FactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactViewModel.swift; sourceTree = "<group>"; };
+		20436DA12D3FD35300641765 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		20436D5C2D3FCB8000641765 /* Facted */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Facted;
-			sourceTree = "<group>";
-		};
-		20436D6E2D3FCB8100641765 /* FactedTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FactedTests;
-			sourceTree = "<group>";
-		};
-		20436D782D3FCB8100641765 /* FactedUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FactedUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		20436D572D3FCB8000641765 /* Frameworks */ = {
@@ -75,9 +80,10 @@
 		20436D512D3FCB8000641765 = {
 			isa = PBXGroup;
 			children = (
-				20436D5C2D3FCB8000641765 /* Facted */,
-				20436D6E2D3FCB8100641765 /* FactedTests */,
-				20436D782D3FCB8100641765 /* FactedUITests */,
+				20436DA12D3FD35300641765 /* README.md */,
+				20436D8E2D3FCB8600641765 /* Facted */,
+				20436D942D3FCB8A00641765 /* FactedTests */,
+				20436D982D3FCB8C00641765 /* FactedUITests */,
 				20436D5B2D3FCB8000641765 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,61 @@
 				20436D752D3FCB8100641765 /* FactedUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		20436D892D3FCB8600641765 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20436D882D3FCB8600641765 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20436D8E2D3FCB8600641765 /* Facted */ = {
+			isa = PBXGroup;
+			children = (
+				20436D8D2D3FCB8600641765 /* FactedApp.swift */,
+				20436D9B2D3FCC0700641765 /* Views */,
+				20436D9C2D3FCC1100641765 /* Logic */,
+				20436D8A2D3FCB8600641765 /* Assets.xcassets */,
+				20436D8C2D3FCB8600641765 /* Facted.entitlements */,
+				20436D892D3FCB8600641765 /* Preview Content */,
+			);
+			path = Facted;
+			sourceTree = "<group>";
+		};
+		20436D942D3FCB8A00641765 /* FactedTests */ = {
+			isa = PBXGroup;
+			children = (
+				20436D932D3FCB8A00641765 /* FactedTests.swift */,
+			);
+			path = FactedTests;
+			sourceTree = "<group>";
+		};
+		20436D982D3FCB8C00641765 /* FactedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20436D962D3FCB8C00641765 /* FactedUITests.swift */,
+				20436D972D3FCB8C00641765 /* FactedUITestsLaunchTests.swift */,
+			);
+			path = FactedUITests;
+			sourceTree = "<group>";
+		};
+		20436D9B2D3FCC0700641765 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20436D8B2D3FCB8600641765 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20436D9C2D3FCC1100641765 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				20436D9D2D3FCC1A00641765 /* Fact.swift */,
+				20436D9F2D3FCC7C00641765 /* FactViewModel.swift */,
+			);
+			path = Logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +167,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				20436D5C2D3FCB8000641765 /* Facted */,
 			);
 			name = Facted;
 			packageProductDependencies = (
@@ -130,9 +188,6 @@
 			dependencies = (
 				20436D6D2D3FCB8100641765 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				20436D6E2D3FCB8100641765 /* FactedTests */,
-			);
 			name = FactedTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +207,6 @@
 			);
 			dependencies = (
 				20436D772D3FCB8100641765 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				20436D782D3FCB8100641765 /* FactedUITests */,
 			);
 			name = FactedUITests;
 			packageProductDependencies = (
@@ -212,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20436D8F2D3FCB8600641765 /* Preview Assets.xcassets in Resources */,
+				20436D902D3FCB8600641765 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20436DA02D3FCC7C00641765 /* FactViewModel.swift in Sources */,
+				20436D912D3FCB8600641765 /* ContentView.swift in Sources */,
+				20436D9E2D3FCC1A00641765 /* Fact.swift in Sources */,
+				20436D922D3FCB8600641765 /* FactedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20436D952D3FCB8A00641765 /* FactedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20436D992D3FCB8C00641765 /* FactedUITests.swift in Sources */,
+				20436D9A2D3FCB8C00641765 /* FactedUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +462,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +490,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
